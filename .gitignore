@@ -21,3 +21,11 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# 忽略依赖包
+node_modules/
+# 忽略打包输出目录
+dist/
+# 忽略本地环境变量文件（如果里面有你个人的配置或密码）
+.env.local
+.DS_Store
